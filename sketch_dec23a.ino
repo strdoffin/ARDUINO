@@ -5,7 +5,7 @@
 #define rr analog(4)  //ขวาสุด
 #define bl analog(5)  //หลังซ้าย
 #define br analog(6)  //หลังขวา
-#define ref 600   //กำหนดค่ากลางค่าแสง
+#define ref 548.25   //กำหนดค่ากลางค่าแสง
 #define ref2 237.5
 #define _speed 37
 #define _time 375
@@ -246,7 +246,7 @@ void setup() {
   delay(1000);
   
   //tr90(_speed,_time); tr90(_speed,_time);
-  /*
+  
   FFBKL();
   FFBKL();
   FFBKL();
@@ -313,5 +313,5 @@ void setup() {
 }
 
 void loop() {
-  readsensor();
+  //readsensor();
 }
