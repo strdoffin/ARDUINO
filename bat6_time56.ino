@@ -26,8 +26,8 @@ void readsensor() { //ฟังก์ชันแสดงค่าจาก sen
 }
 /*---------------------------------------------*/
 void FF(unsigned int speed) {
-  motor(1, speed - 9);
-  motor(2, speed - 9);
+  motor(1, speed - 7);
+  motor(2, speed - 7);
   motor(3, speed);
   motor(4, speed);
   if (ll < ref) {
@@ -40,13 +40,13 @@ void FF(unsigned int speed) {
 /*---------------------------------------------*/
 void tl90() {
   SL(100);
-  delay(335);
+  delay(360);
   pause(10);
 }
 /*---------------------------------------------*/
 void tr90() {
   SR(100);
-  delay(335);
+  delay(360);
   pause(10);
 }
 /*---------------------------------------------*/
